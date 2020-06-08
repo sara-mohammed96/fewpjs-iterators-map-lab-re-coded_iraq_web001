@@ -10,7 +10,7 @@ const tutorials = [
   'what is the difference between event capturing and bubbling?',
   'what is JSONP?'
 ];
-
+//takes each line then each word captlize the first letter 
 const titleCased = () => tutorials.map(tutorial => tutorial.split(' ').map(eachWord => eachWord.charAt(0).toUpperCase() + eachWord.slice(1)).join(' '))
 
 
